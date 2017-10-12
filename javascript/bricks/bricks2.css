@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.erase,
+.color,
+.resize,
+.clear {
+    margin: 10px auto;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    background-color: #181870;
+    color: rgb(255, 255, 255);
+    width: 180px;
+    height: auto;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.erase:hover,
+.color:hover,
+.resize:hover,
+.clear:hover {
+    margin: 10px auto;
+    float: center;
+    padding: 0.5em 0.75em;
+    background-color: royalblue;
+    color: white;
+    width: 180px;
+    height: auto;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.lsd,
+.blue,
+.green,
+.red {
+    margin: 10px auto;
+    display: inline-block;
+    color: white;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.lsd:hover,
+.blue:hover,
+.red:hover,
+.green:hover {
+    margin: 10px auto;
+    float: center;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.blue {
+    background-color: rgb(70, 130, 180);
+}
+
+.blue:hover {
+    background-color: rgba(70, 130, 180, 0.6);
+}
+
+.red {
+    background-color: tomato;
+}
+
+.red:hover {
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+.green {
+    background-color: seagreen;
+}
+
+.green:hover {
+    background-color: rgba(46, 139, 87, 0.6);
+}
+
+.lsd {
+    background-color: royalblue;
+}
+
+.lsd:hover {
+    background-color: rgba(65, 105, 225, 0.6);
+}
+
+table {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(230, 230, 230);
+}
+
+tr {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    border: 0px;
+}
+
+td {
+    padding: 0px;
+    margin: 0 auto;
+    border: 0px;
+    border-radius: 0%;
+}
+
+.brick {
+    background-color: rgb(200, 200, 200);
+    z-index: 1;
+    display: inline-block;
+    margin: auto;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    border: 0px;
+}
